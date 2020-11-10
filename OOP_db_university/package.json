@@ -1,0 +1,16 @@
+{
+  "name": "oop_db_university",
+  "version": "1.0.0",
+  "description": "",
+  "main": "university.js",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
