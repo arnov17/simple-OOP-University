@@ -1,5 +1,6 @@
 const readline = require("readline");
 const Table = require("cli-table");
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -17,7 +18,7 @@ let username;
 class University {
   homepage() {
     console.log("====================================================");
-    console.log("Welcome to Universitas Gunadarma Margonda ");
+    console.log("Welcome to Universitas Gunadarma Margonda");
     console.log("Jl. Margonda Raya No.100, Pondok Cina,");
     console.log("====================================================");
     const login = new Login();
